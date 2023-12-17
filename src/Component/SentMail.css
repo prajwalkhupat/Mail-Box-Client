@@ -1,0 +1,57 @@
+.sent-email-container {
+    width: 200vh;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:  #eeecd9;
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+  
+  .sent-email-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sent-email-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #98d8e4;
+    transition: background-color 0.3s;
+  }
+  
+  .sent-email-item:hover {
+    background-color: #e2e197;
+    cursor: pointer;
+  }
+  
+  .no-sent-emails-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+  }
+  
+  .sent-h2-tag {
+    text-align: center;
+    color: #333;
+  }
+  
+  .sent-email-content {
+    flex-grow: 1;
+  }
+  .mailbox-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .back-btn{
+    margin-right: 15px;
+  }
+  .sentMail-div{
+    background-color: aliceblue;
+    /* background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODMtYWRqLTAxM18yLmpwZw.jpg'); */
+  }

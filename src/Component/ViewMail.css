@@ -1,0 +1,55 @@
+.view-mail-container {
+    width: 200vh;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #eeecd9;
+    margin-top: 25px;
+  }
+  
+  .view-mail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .view-mail-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .view-mail-back-button {
+    background-color: #44326b;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-mail-back-button:hover {
+    background-color: #4790dd;
+  }
+  
+  .view-mail-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #cfd7da;
+  }
+  
+  .view-mail-content p {
+    margin: 0;
+  }
+
+  .veiwMail-div{
+    background-color: aliceblue;
+    /* background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODMtYWRqLTAxM18yLmpwZw.jpg'); */
+  }
+  
+  

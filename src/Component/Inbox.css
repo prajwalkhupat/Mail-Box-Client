@@ -1,0 +1,70 @@
+.email-list-container {
+  width: 200vh;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eeecd9;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.email-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.email-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  
+}
+
+.email-item:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.no-emails-message {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
+
+.h2-tag {
+  text-align: center;
+  color: #333;
+}
+
+.compose-btn {
+  margin-right: 15px;
+}
+
+.unread-count {
+  background-color: #221f1a;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.email-content {
+  flex-grow: 1;
+}
+
+.dlt-btn {
+  justify-self: end;
+}
+.inbox-main{
+  background-color: aliceblue;
+  /* background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODMtYWRqLTAxM18yLmpwZw.jpg'); */
+}
